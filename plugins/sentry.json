@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sentry": {
+      "command": "uvx",
+      "args": ["mcp-server-sentry", "--auth-token", "${SENTRY_AUTH_TOKEN}"]
+    }
+  }
+}
